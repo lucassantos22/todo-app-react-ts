@@ -1,0 +1,7 @@
+{
+    "tasks": [
+        {"id": 0, "name": "Enviar TCC", "description": "TCC deve ser enviado", "done": false},
+        {"id": 1, "name": "Caminhar com o cachorro", "description": "Lolla precisa caminhar", "done": true},
+        {"id": 2, "name": "Estudar typescript", "description": "", "done": false}
+    ]
+}
