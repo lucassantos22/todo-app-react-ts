@@ -8,7 +8,7 @@ export const getTasks = async () => {
 }
 
 export const addTask = async (data: Task) => {
-    return await axios.delete(`${PATH}`, { data })
+    return await axios.post(`${PATH}`, { data })
 }
 
 export const editTask = async (id: number)=> {

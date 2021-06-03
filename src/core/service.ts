@@ -1,7 +1,7 @@
 import * as API from './api'
 import { Task } from './entities/Task'
 
-function _isHttpCodeSuccess(code: number){
+export function _isHttpCodeSuccess(code: number){
     return (code + '')[0] === '2'
 }
 
